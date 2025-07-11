@@ -6,7 +6,7 @@ import { addProduct } from "../../services/postProduct";
 import { updateProduct } from "../../services/putProduct";
 import type { Product } from "../../types/productApp";
 import ProductDetail from "./ProductDetail";
-import ProductForm from "./productForm";
+import ProductForm from "./ProductForm";
 
 const ProductApp = () => {
   const [products, setProducts] = useState<Product[]>([]);
